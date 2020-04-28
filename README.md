@@ -1,1 +1,1 @@
-# hw-06-server-side-apis-weather-dashboard
+# hw-05-third-party-apis
