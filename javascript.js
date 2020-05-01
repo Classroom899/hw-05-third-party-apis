@@ -64,6 +64,13 @@ $("#6thButton").click(function () {
     localStorage.setItem("sixth", sixthLocalStorageButton);
 })
 
+$("#7thButton").click(function () {
+    $("#7thFormGroup").val();
+    var seventhLocalStorageButton = $("#7thFormGroup").val();
+    console.log(seventhLocalStorageButton);
+    localStorage.setItem("seventh", seventhLocalStorageButton);
+})
+
 
 //Set every single event of every hour with each id and change that id
 
