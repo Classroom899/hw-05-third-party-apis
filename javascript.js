@@ -16,3 +16,15 @@ moment().calendar(); //Today at 5:25 PM
 moment().add(3, 'days').calendar(); //Sunday at 5:25 PM
 
 
+//Need to save event in local storage
+
+
+
+
+
+//For loop will be needed 
+
+
+
+
+//Add classes for past, present, and future
