@@ -26,7 +26,7 @@ $("#firstButton").click(function () {
     $("#firstFormGroup").val();
     var firstLocalStorageButton = $("#firstFormGroup").val();
     console.log(firstLocalStorageButton);
-    localStorage.setItem("first", firstLocalStorageButton);
+    localStorage.setItem("first", firstLocalStorageButton); //setting our local storage item with the "key", setting the variable value for our text form
 })
 
 $("#2ndButton").click(function () {
@@ -41,6 +41,27 @@ $("#3rdButton").click(function () {
     var thirdLocalStorageButton = $("#3rdFormGroup").val();
     console.log(thirdLocalStorageButton);
     localStorage.setItem("third", thirdLocalStorageButton);
+})
+
+$("#4thButton").click(function () {
+    $("#4thFormGroup").val();
+    var fourthLocalStorageButton = $("#4thFormGroup").val();
+    console.log(fourthLocalStorageButton);
+    localStorage.setItem("fourth", fourthLocalStorageButton);
+})
+
+$("#5thButton").click(function () {
+    $("#5thFormGroup").val();
+    var fifthLocalStorageButton = $("#5thFormGroup").val();
+    console.log(fifthLocalStorageButton);
+    localStorage.setItem("fifth", fifthLocalStorageButton);
+})
+
+$("#6thButton").click(function () {
+    $("#6thFormGroup").val();
+    var sixthLocalStorageButton = $("#6thFormGroup").val();
+    console.log(sixthLocalStorageButton);
+    localStorage.setItem("sixth", sixthLocalStorageButton);
 })
 
 
