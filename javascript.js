@@ -215,7 +215,7 @@ $("#firstButtonAgain").click(function () {
 
 
 //Add classes for past, present, and future so just use one for loop
-for (var i = 1; i < 4; i++) {
+for (var i = 1; i < 24; i++) {
     var colorEvent = $("#" + i).data().time
     var indexEvent = $("#" + i)
     console.log(colorEvent);
